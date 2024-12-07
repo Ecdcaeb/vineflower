@@ -385,6 +385,7 @@ public interface IFernflowerPreferences {
   @Name("Mark Corresponding Synthetics")
   @Description("Mark lambdas and anonymous and local classes with their respective synthetic constructs")
   @ShortName("mcs")
+  @Type(DecompilerOption.Type.BOOLEAN)
   String MARK_CORRESPONDING_SYNTHETICS = "mark-corresponding-synthetics";
 
   @Name("Excluded Classes")
